@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<title>test</title>
+
+</head>
+<body>
+	<div style="height: 200px; background-color: gray;"></div>
+	
+	<!-- start -->
+	
+	<div id="coments_block"></div>
+	<script>
+		var element = document.createElement('iframe');
+		element.width = '468';
+		element.height = '400';
+		element.src = 'http://softgroup.loc/coments/index/' + window.location.hostname;
+		document.getElementById('coments_block').appendChild(element);
+	</script>
+	
+	<!-- finish -->
+	
+	<div style="height: 200px; background-color: gray;"></div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: rgba(0, 0, 0, 0.1);
+	position: relative;
+}
+.coment_rating{
+	cursor: pointer; 
+	display: block;
+	height: 20px;
+	width: 40px;
+	text-align: center;
+}
+.coment_rating:hover{
+	color: red;
+}
+.delete_coment, #send_coment{
+	color: black;
+	width: 100px;
+	height: 20px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 10px 30px 10px 30px;
+}
+.delete_coment:hover, #send_coment:hover{
+	color: red;
+	text-decoration: underline;
+}
+th{
+	border-bottom:1px solid black;
+}
+textarea{
+	height: 50px;
+	width: 250px;
+}
